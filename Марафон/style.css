@@ -1,0 +1,158 @@
+body{
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-me-profession{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.about-me-name{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+.about-me-text{
+    font-size: 14px;
+    font-weight: 400;
+    text-indent: 1.5em;
+    margin-right: 40px;
+    color: #595959;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1100px;
+    background-color: #fff;
+    margin: 40px auto;
+    border: 5px solid #595959;
+
+}
+.main-content-section {
+    margin-top: 102px;
+    margin-bottom: 107px;
+    margin-left: 88px;
+    margin-right: 227px;
+
+}
+
+
+.my-project-section {
+    margin-top: 40px;
+    
+}
+.project{
+    color: #595959;
+    padding: 0 0 0 0;
+}
+.project-site{
+    color: #595959;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 0 0 0 8px;
+}
+.project-type{
+    color: #000000;
+}
+
+.my-work-experience {
+    margin-top: 51px;
+    
+}
+.company-text{
+    padding: 0 0 0 15px;
+    line-height: 23px;
+}
+.my-education {
+    margin-top: 43px;
+    line-height: 11px;
+}
+
+ol > li {
+    list-style-type: none;
+    counter-increment: item;
+    color: #000000;
+}
+ol > li:before {
+    content: counter(item) ". ";
+    font-weight: bold;
+}
+
+
+li{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+}
+h3{
+    size: 22px;
+}
+
+                                /************************** contacts sections **************************/
+.sidebar-section{
+    background-color: #1E2939;
+    ;
+}
+
+.img{
+    margin-top: 40px;
+}
+.contacts-sections{
+    margin-top: 51px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+.contacts{
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.cont{
+  margin-right: 5px;
+}
+.mail{
+    margin-right: 5px;
+}
+.contacts-sections-link1{
+    color: #79808b;
+    text-decoration: none;
+}
+.contacts-sections-link2{
+    color: #79808b;
+}
+
+                             /******************************* skill sections *****************************/
+.tech-skills-list{
+  padding: 0 0 0 15px;
+}
+.tech-skills-item{
+    color: #FB6D3A;
+}
+.tech-skills-item-text{
+    color: #ffffff;
+}
+.soft-skills-list{
+    padding: 0 0 0 15px;
+}
+.soft-skills-item{
+    color: #FB6D3A;
+}
+.soft-skills-item-text{
+    color: #ffffff;
+}
+
+.tech{
+    margin-top: 47px;
+    line-height: 25px;
+}
+.soft{
+    margin-top: 44px;
+    line-height: 25px;
+}
